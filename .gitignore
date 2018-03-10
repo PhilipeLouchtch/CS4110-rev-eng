@@ -1,0 +1,5 @@
+**.o
+.code-workspace
+.vscode
+fuzz
+/results
