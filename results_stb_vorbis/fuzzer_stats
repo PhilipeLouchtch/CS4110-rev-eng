@@ -1,0 +1,28 @@
+start_time        : 1520762858
+last_update       : 1520769418
+fuzzer_pid        : 9122
+cycles_done       : 0
+execs_done        : 7763880
+execs_per_sec     : 1003.66
+paths_total       : 775
+paths_favored     : 109
+paths_found       : 118
+paths_imported    : 0
+max_depth         : 3
+cur_path          : 228
+pending_favs      : 104
+pending_total     : 767
+variable_paths    : 29
+stability         : 35.87%
+bitmap_cvg        : 3.05%
+unique_crashes    : 20
+unique_hangs      : 6
+last_path         : 1520767409
+last_crash        : 1520767485
+last_hang         : 1520762919
+execs_since_crash : 1945463
+exec_timeout      : 40
+afl_banner        : stb_vorbis
+afl_version       : 2.52b
+target_mode       : persistent deferred 
+command_line      : afl-2.52b/afl-fuzz -T stb_vorbis -i - -o results_stb_vorbis -- ./stb_vorbis_fuzzer @@
