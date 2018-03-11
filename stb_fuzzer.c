@@ -21,6 +21,8 @@ int main(int argc, char** argv)
         int* error = malloc(sizeof(int));
         stb_vorbis* result = stb_vorbis_open_filename(argv[1], error, NULL);
 
-        printf("error code: %i,\t result: %i\n", *error, result);
+        free(result);
+        free(error);
+        // printf("error code: %i,\t result: %i\n", *error, result);
     }
 }
