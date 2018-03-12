@@ -1,6 +1,6 @@
 Command line used to find this crash:
 
-afl-2.52b/afl-fuzz -T stb_vorbis -i - -o results_stb_vorbis -- ./stb_vorbis_fuzzer @@
+afl-2.52b/afl-fuzz -T stb_vorbis -i corpus/ogg -o results_stb_vorbis1 -- ./stb_vorbis_fuzzer @@
 
 If you can't reproduce a bug outside of afl-fuzz, be sure to set the same
 memory limit. The limit used for this fuzzing session was 50.0 MB.
