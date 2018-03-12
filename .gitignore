@@ -4,3 +4,4 @@
 fuzz
 /results
 /testcases
+/results_*/queue
