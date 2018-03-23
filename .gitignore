@@ -1,7 +1,0 @@
-**.o
-.code-workspace
-.vscode
-fuzz
-/results
-/testcases
-/results_*/queue
